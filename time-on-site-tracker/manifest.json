@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Time-on-Site Tracker",
+  "description": "Track and visualize time spent on websites.",
+  "version": "1.0",
+  "permissions": ["tabs", "storage", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon.png"
+  },
+  "icons": {
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  }
+}
